@@ -1,0 +1,1 @@
+g++ main.cpp game.cpp controller.cpp rendererBase.cpp rendererZero.cpp rendererOne.cpp rendererTwo.cpp sound.cpp snake.cpp `sdl2-config --cflags --libs` -lSDL2 -lSDL2_mixer -lSDL2_image -lSDL2_gfx
